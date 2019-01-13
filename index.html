@@ -1,10 +1,76 @@
 <html>
-    <head>
-        <title>NuclearPower</title>
-    </head>
-    <body>
-        <button class="btn-start">Start listening!</button>
-        <button class="btn-stop">Stop listening!</button>
-        <script src="./index.js"></script>
-    </body>
+
+<head>
+    <title>NuclearPower</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main>
+        <section class="main-section">
+            <div class="container">
+                <div class="all-levers-container">
+                    <div class="lever-container">
+                        <div class="lever on">
+                            <div class="track">
+                                <div class="stick"></div>
+                                <div class="ball">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lever-container">
+                        <div class="lever off unknown">
+                            <div class="track">
+                                <div class="stick"></div>
+                                <div class="ball">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lever-container">
+                        <div class="lever off unknown">
+                            <div class="track">
+                                <div class="stick"></div>
+                                <div class="ball">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lever-container">
+                        <div class="lever off unknown">
+                            <div class="track">
+                                <div class="stick"></div>
+                                <div class="ball">
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="button-container">
+                    <button class="button btn-start">Start!</button>
+                    <button class="button btn-stop">Stop!</button>
+                </div>
+                <p class="fail-message">
+                    All the levers were on. Try another state..
+                </p>
+                <p class="success-message">
+                    Congratulations! Caitlin is off! Your token is:
+                </p>
+                <textarea class="token" type="text" rows="2" readonly></textarea>
+            </div>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
 </html>
